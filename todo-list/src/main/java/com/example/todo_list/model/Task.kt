@@ -16,7 +16,7 @@ data class Task(
 
     @field:NotBlank(message = "A descrição da tarefa é obrigatoria.")
     @field:Size(min = 3, message = "A descrição deve ter no minimo 3 caracteres.")
-    var descripition: String,
+    var description: String,
 
     var completed: Boolean = false
 )
